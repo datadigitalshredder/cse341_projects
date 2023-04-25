@@ -1,7 +1,11 @@
 const express = require('express');
+
+const connectDB = require('./DBconnection/connection');
 const app = express();
 
 app.use("/", require("./routes"))
+
+connectDB();
 
 const port = 3000;
 
