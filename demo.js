@@ -7,15 +7,6 @@ const {MongoClient} = require('mongodb');
 // Let’s create an asynchronous function named main() where we will connect to our MongoDB cluster, 
 // call functions that query our database, and disconnect from our cluster.
 
-async function main() {
-	// we'll add code here soon
-}
-
-
-
-
-const client = new MongoClient(uri);
-
 async function main(){
     /**
      * Connection URI. Update <username>, <password>, and <your-cluster-url> to reflect your cluster.
@@ -27,7 +18,8 @@ async function main(){
     // don't forget to update <username> and <password> to be the credentials for the user you created in the previous 
     // section. The connection string includes a <dbname> placeholder. For these examples, we'll be using the 
     // sample_airbnb database, so replace <dbname> with sample_airbnb.
-    const uri = "mongodb+srv://demo:demo101@<your-cluster-url>/test?retryWrites=true&w=majority";
+    const uri = "mongodb+srv://cse341projects:hove101cse341@cluster0.sm7gfys.mongodb.net/?retryWrites=true&w=majority";
+    // mongodb+srv://<username>:<password>@cluster0.gliv6an.mongodb.net/?retryWrites=true&w=majority
  
     // Now that we have our URI, we can create an instance of MongoClient.
     const client = new MongoClient(uri);
@@ -42,7 +34,7 @@ async function main(){
         await client.connect();
  
         // Make the appropriate DB calls
-        await  listDatabases(client);
+        await listDatabases(client);
  
     } catch (e) {
         console.error(e);
