@@ -1,0 +1,30 @@
+{
+    "contact": {
+        "firstName": "Tracey",
+        "lastName": "Hove",
+        "email": "traceyhove101@gmail.com",
+        "favouriteColor": "Beige",
+        "birthDate": "09/09/1990"
+    },
+    "contact2": {
+        "firstName": "Jordan",
+        "lastName": "Hove",
+        "email": "jordanhove101@gmail.com",
+        "favouriteColor": "Green",
+        "birthDate": "16/08/2016"
+    },
+    "contact3": {
+        "firstName": "Jared",
+        "lastName": "Hove",
+        "email": "jaredhove101@gmail.com",
+        "favouriteColor": "Blue",
+        "birthDate": "11/07/2019"
+    },
+    "contact4": {
+        "firstName": "Taylor",
+        "lastName": "Hove",
+        "email": "taylorhove101@gmail.com",
+        "favouriteColor": "Pink",
+        "birthDate": "01/12/2022"
+    }
+}
