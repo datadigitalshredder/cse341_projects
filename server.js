@@ -18,7 +18,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongodb = require('./DBconnection/connection');
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 const app = express();
 
 app
@@ -37,3 +37,4 @@ mongodb.initDb((err, mongodb) => {
     console.log(`Connected to Database and listening on ${port}`);
   }
 });
+

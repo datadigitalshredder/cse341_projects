@@ -1,21 +1,108 @@
+### LESSON 2 (localhost routes)
+
+### Get all contacts
+
+GET http://localhost:8080/contacts
+
+### Get one contact
+
+GET http://localhost:8080/contacts/644d9d6d5c0d8ffc7747ba18
+
+### Get one contact
+
+GET http://localhost:8080/contacts/644d9daf5c0d8ffc7747ba19
+
+### Get one contact
+
+GET http://localhost:8080/contacts/644d9e1a5c0d8ffc7747ba1b
+
+### Get one contact
+
+GET http://localhost:8080/contacts/644d9e5a5c0d8ffc7747ba1c
+
+### Render routes
+### Get all contacts
+GET https://cse341-projects-lesson-two.onrender.com/contacts HTTP/1.1
+
 ###
 
-GET http://localhost:3000/contacts
+GET https://cse341-projects-lesson-two.onrender.com/contacts/644d9d6d5c0d8ffc7747ba18 HTTP/1.1
+
+### 
+
+GET https://cse341-projects-lesson-two.onrender.com/contacts/644d9daf5c0d8ffc7747ba19 HTTP/1.1
 
 ###
 
-GET http://localhost:3000/contacts/644d9d6d5c0d8ffc7747ba18
+GET https://cse341-projects-lesson-two.onrender.com/contacts/644d9e1a5c0d8ffc7747ba1b HTTP/1.1
+
+### 
+
+GET https://cse341-projects-lesson-two.onrender.com/contacts/644d9e5a5c0d8ffc7747ba1c HTTP/1.1
+
+### LESSON 3
+### localhost routes
+
+### Create a contact
+
+POST http://localhost:8080/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName":"Ethan",
+    "lastName":"Hove",
+    "email":"ethanhove102@gmail.com",
+    "favoriteColor":"Orange",
+    "birthDate":"12/04/2016"
+}
+
+### Update a contact
+
+PUT http://localhost:8080/contacts/645672851a12b4ca4bcfda5a HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Updated",
+    "lastName": "Update",
+    "email": "update@gmail.com",
+    "favoriteColor": "Black",
+    "birthDate": "09/09/1950"
+}
+
+### Delete a contact
+
+DELETE http://localhost:8080/contacts/645672851a12b4ca4bcfda5a HTTP/1.1
 
 ###
 
-GET http://localhost:3000/contacts/644d9daf5c0d8ffc7747ba19
+### RENDER routes
+
+POST https://cse341-projects-lesson-three.onrender.com/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName":"Ethan",
+    "lastName":"Hove",
+    "email":"ethanhove102@gmail.com",
+    "favoriteColor":"Orange",
+    "birthDate":"12/04/2016"
+}
 
 ###
 
-GET http://localhost:3000/contacts/644d9e1a5c0d8ffc7747ba1b
+PUT https://cse341-projects-lesson-three.onrender.com/645672851a12b4ca4bcfda5a HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Updated",
+    "lastName": "Update",
+    "email": "update@gmail.com",
+    "favoriteColor": "Black",
+    "birthDate": "09/09/1950"
+}
 
 ###
 
-GET http://localhost:3000/contacts/644d9e5a5c0d8ffc7747ba1c
+DELETE https://cse341-projects-lesson-three.onrender.com/645672851a12b4ca4bcfda5a HTTP/1.1
 
 ###
