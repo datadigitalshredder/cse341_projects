@@ -110,6 +110,6 @@ DELETE https://cse341-projects-lesson-three.onrender.com/645672851a12b4ca4bcfda5
 ### LESSON 4
 ### Swagger GUI
 
-GET https://cse341-projects-contacts.onrender.com/api-docs HTTP/1.1
+GET https://cse341-contacts-final.onrender.com/api-docs HTTP/1.1
 
 ###
