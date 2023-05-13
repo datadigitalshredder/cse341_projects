@@ -106,3 +106,10 @@ Content-Type: application/json
 DELETE https://cse341-projects-lesson-three.onrender.com/645672851a12b4ca4bcfda5a HTTP/1.1
 
 ###
+
+### LESSON 4
+### Swagger GUI
+
+GET https://cse341-projects-contacts.onrender.com/api-docs HTTP/1.1
+
+###
