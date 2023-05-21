@@ -1,0 +1,25 @@
+###
+### LESSON 5 
+### LOCALHOST ROUTES
+
+GET http://localhost:8080/agrichems HTTP/1.1
+
+###
+
+POST http://localhost:8080/agrichems HTTP/1.1
+Content-Type: application/json
+
+{
+    "pesticideGroup": "Fungicide",
+    "tradeName": "Rhizo Mic",
+    "pesticideType": "Biological",
+    "activeIngredient": "Microbial - bacteria",
+    "registrationNumber": "14-B-99-1",
+    "description": "Rhizobium colonizes in the leguminous plant cells within root nodules, and fixes atmospheric dinitrogen (N2) to ammonia. Rhizobium provides ammonia as nitrogen source to the host plant, and the host plant provides the rhizobium (bacteroid) organic compounds made by photosynthesis. Bacillus subtilis Plant growth promoting rhizobacteria. Beauveria bassiana is the most widely used biocontrol agent against many major arthropod pests. This ascomycetal fungus is able to produce infection structures and synthesize a cocktail of proteins, enzymes, organic acids, and bioactive secondary metabolites, which are responsible for the entomopathogenic activity and virulence (PGPR) can significantly enhance plant growth and represent a mutually helpful plant-microbe interaction. Bacillus species are a major type of rhizobacteria that can form spores that can survive in the soil for long period of time under harsh environmental conditions. Bacillus subtilis exhibits both a direct and indirect biocontrol mechanism to suppress disease caused by pathogens. The direct mechanism includes the synthesis of many secondary metabolites, hormones, cell-wall-degrading enzymes, and antioxidants that assist the plant in its defense against pathogen attack. Plant growth is enhanced by PGPR through the induction of systemic resistance, antibiosis, and competitive omission. Tricoderma spp. Biocontrol can be defined as the use of living organisms to depress the pest population. Trichoderma spp. are the most commonly used biocontrol agents against a broad spectrum of root, shoot, and postharvest pathogens. Roots become the main habitat for the fungus, especially along the root surfaces and underneath the outermost layer of root cells. In order to establish the fungus in and on the plant roots, Trichoderma is effectively applied during seeding. T. atroviride boost up the plant growth, decreased herbivory and change insect feeding habit after it was inoculated to maize plant. The stimulation of defence responses against herbivory contributed by the accumulation of jasmonic acid and the rise of volatile terpenes concentration released by this beneficial fungus, T. atroviride. Mycorrhizae Arbuscular mycorrhizal fungi (AMF) facilitate host plants to grow vigorously under stressful conditions by mediating a series of complex communication events between the plant and the fungus leading to enhanced photosynthetic rate and other gas exchange-related traits (Birhane et al., 2012), as well as increased water uptake. The mycorrhizal fungus provides the host plant with nutrients, such as phosphate and nitrogen, and increases the abiotic (drought, salinity, heavy metals) and biotic (root pathogens) stress resistance of the host. In return for their beneficial effect on nutrient uptake, the host plant transfers between 4 and 20% of its photosynthetically fixed carbon to the mycorrhizal fungus.",
+    "price": "$22.45 per kg",
+    "supplier": "Sineria Holland BV",
+    "targetCrops": "Wide variety",
+    "targetPests": "Wide variety"
+}
+
+###
